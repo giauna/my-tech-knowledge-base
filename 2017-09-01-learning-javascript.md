@@ -17,4 +17,12 @@
 - Immediately-Invoked Function Expression (IIFE)
 - .call(), .apply() and .bind()
 
-[Hoisting](https://codeburst.io/hoisting-in-javascript-515c987336d3)
+### [Hoisting](https://codeburst.io/hoisting-in-javascript-515c987336d3)
+
+*how Variables and Function declarations are ‘lifted’ to the top of a function or a global scope even if they are declared after execution*
+
+- Global execution context and Function execution context
+- Lexical environment (*something that keeps track of variables and functions within a block of code*)
+- Phases of execution (*The first phase registers all the variables and function declarations within the current lexical environment - local and global -. After that is done, the second phase — Javascript execution begins!*)
+
+[Hoisting2](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
