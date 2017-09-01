@@ -1,4 +1,4 @@
-## [Learning Javascript]([./learning-javascript](./learning-javascript))
+## [Learning Javascript](./learning-javascript)
 
 ## Welcome to GitHub Pages
 
