@@ -33,4 +33,10 @@
 
 ### [new (Object-oriented Programming)](https://codeburst.io/javascripts-new-keyword-explained-as-simply-as-possible-fec0d87b2741)
 
+### [Apply vs. Call vs. Bind](https://codeplanet.io/javascript-apply-vs-call-vs-bind/)
+
+- Call invokes the function and allows you to pass in arguments one by one.
+- Apply invokes the function and allows you to pass in arguments as an array.
+- Bind returns a new function, allowing you to pass in a this array and any number of arguments.
+
 
