@@ -31,4 +31,6 @@
 
 5 rules to learn how JS engine is using to do it
 
+### [new (Object-oriented Programming)](https://codeburst.io/javascripts-new-keyword-explained-as-simply-as-possible-fec0d87b2741)
+
 
