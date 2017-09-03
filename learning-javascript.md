@@ -29,4 +29,6 @@
 
 ### [.this](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5676830073815040)
 
+5 rules to learn how JS engine is using to do it
+
 
