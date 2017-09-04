@@ -12,7 +12,6 @@ Javascript is a functional language meaning that functions are the primary modul
 JavaScript does not throw an error if the number of arguments passed during a function invocation are different than the number of parameters listed during function definition.
 
 #### The argument parameter
-
 The ```arguments``` parameter is local variable accessible within all functions and contains an entry for each argument passed to that function. The arguments object is an array-like construct which can be used to access arguments passed to the function even if a matching parameter isn’t explicitly defined.
 ```javascript
 function argumentVar(parameter1, parameter2, parameter3){
