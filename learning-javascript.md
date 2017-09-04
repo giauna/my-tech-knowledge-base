@@ -2,11 +2,27 @@
 
 ## [10 javascript concept you need to know](https://codeburst.io/10-javascript-concepts-you-need-to-know-for-interviews-136df65ecce)
 
-### [Value vs reference](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5685265389584384/)
+## [Value vs reference](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5685265389584384/)
 - Primitives
 - Objects
 - Assigning by Reference
-- == and ===
+
+Whenever a variable is not explicitly assigned with a value, which could be the case of an out-of-range array accessing or an ignored function argument, the variable is set as ```undefined``` by the runtime.
+
+### == and ===
+
+== does automatic type conversion and compare the “value”. So a string "1" equals to an integer 1 in ==.
+
+=== does not do type conversion. So when comparing a string to an integer, === returns false regardless of the value.
+
+```javascript
+//comparing string with number
+var res = "1" == 1;
+alert(res); //=>true
+res = "1" === 1;
+alert(res); //=>false
+```
+
 - Passing Parameters through Functions
 
 ### [Scope and Context](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-scope-in-javascript)
@@ -38,5 +54,3 @@
 - Call invokes the function and allows you to pass in arguments one by one.
 - Apply invokes the function and allows you to pass in arguments as an array.
 - Bind returns a new function, allowing you to pass in a this array and any number of arguments.
-
-
