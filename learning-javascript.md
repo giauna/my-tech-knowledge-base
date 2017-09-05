@@ -10,11 +10,14 @@ Before ES6, ```var``` was the only keyword used to declare variables in JavaScri
 
 With ES6 JavaScript introduced two other variable declaration keywords ```let``` and ```const```
 
-**const**
-
-It is just like any other variable with some exceptions:
+```const``` is just like any other variable with some exceptions:
 - Need to initialize the value when declared
 - A new value can’t be assigned afterward (Not very variable, is it?) 
+
+```var``` ignores the blocks and is defined to the closest function or global scope. ```let``` and ```const``` on the other hand are block scoped variables.
+
+![]({{site.baseurl}}/https://cdn-images-1.medium.com/max/800/1*0YTEqYUeagQ34e31n4D6Fw.png)
+![]({{site.baseurl}}/https://cdn-images-1.medium.com/max/800/1*C3JNKH2fVZLllE9MSiU1zg.png)
 
 ### Functions
 
