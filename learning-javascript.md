@@ -16,8 +16,10 @@ With ES6 JavaScript introduced two other variable declaration keywords ```let```
 
 ```var``` ignores the blocks and is defined to the closest function or global scope. ```let``` and ```const``` on the other hand are block scoped variables.
 
-![]({{site.baseurl}}/https://cdn-images-1.medium.com/max/800/1*0YTEqYUeagQ34e31n4D6Fw.png)
-![]({{site.baseurl}}/https://cdn-images-1.medium.com/max/800/1*C3JNKH2fVZLllE9MSiU1zg.png)
+![](https://cdn-images-1.medium.com/max/800/1*0YTEqYUeagQ34e31n4D6Fw.png)
+![](https://cdn-images-1.medium.com/max/800/1*C3JNKH2fVZLllE9MSiU1zg.png)
+
+*There isn’t a solid argument for why anyone should keep using ```var``` anymore in ES6 JavaScript*
 
 ### Functions
 
