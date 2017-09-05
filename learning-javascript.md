@@ -69,6 +69,9 @@ restParam(1,2,3,4,5);
 - ```Rest Parameters``` is a real array and methods like ```forEach``` and ```sort``` can be applied. Even though the ```arguments``` object has the ```length``` method, it is not a real array and using array methods like ```sort``` would only bring us misery and sorrow.
 - ```Rest Parameters``` contain only the arguments that have no corresponding parameter while ```arguments``` object contains all the arguments passed to the function. Code snippet could also be written as follows.
 
+#### return statement
+[link](https://codeburst.io/javascript-what-is-the-return-statement-97d8b11a1a0c)
+
 ## Value vs reference [(link)](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5685265389584384/)
 
 ### Primitives
