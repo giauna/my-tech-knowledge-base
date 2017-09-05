@@ -4,6 +4,20 @@
 
 ## Basic concepts
 
+### Variables
+
+Before ES6, ```var``` was the only keyword used to declare variables in JavaScript. 
+
+With ES6 JavaScript introduced two other variable declaration keywords ```let``` and ```const```
+
+**const**
+
+It is just like any other variable with some exceptions:
+- Need to initialize the value when declared
+- A new value can’t be assigned afterward (Not very variable, is it?) 
+
+### Functions
+
 Javascript is a functional language meaning that functions are the primary modular units of execution.
 
 - *Parameters* are variables listed as a part of the function definition.
