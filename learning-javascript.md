@@ -51,7 +51,11 @@ restParam(1,2,3,4,5);
 - ```Rest Parameters``` contain only the arguments that have no corresponding parameter while ```arguments``` object contains all the arguments passed to the function. Code snippet could also be written as follows.
 
 ## [Value vs reference](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5685265389584384/)
-- Primitives
+
+### Primitives
+#### Arrays
+[ES6 — Array.find & Array.findIndex](https://codeburst.io/learn-javascript-es6-array-find-array-findindex-7fe4f63c6974)
+
 - Objects
 - Assigning by Reference
 
