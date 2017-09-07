@@ -140,7 +140,35 @@ var x = 10
 
 You might have guessed that it would print out 10... but **initialisations are not hoisted**.
 
+#### What about functions?
 
+```
+sayHello()
+
+function sayHello () {
+  console.log('Hello!')
+}
+
+// Hello!
+```
+
+JavaScript engine made the ```function``` available by putting it into the memory, before moving on. That’s why I could access the ```sayHello function``` prior to its declaration in the ```execution phase```.
+
+```
+sayHello()
+
+var sayHello = function () {
+  console.log('Hello!')
+}
+
+//TypeError
+```
+
+```sayHello is not a function```. Hmm… wait, what!?
+
+We need to to know the difference between ```function declaration``` and ```function expression```.
+
+**Function Expressions are Not Hoisted**
 
 
 - Global execution context and Function execution context
