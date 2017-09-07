@@ -111,9 +111,37 @@ alert(res); //=>false
 
 ## [Hoisting](https://codeburst.io/hoisting-in-javascript-515c987336d3)
 
-Variables' and Functions' **declarations (different from initilization or definition)** are ‘lifted’ to the top of a function or a global scope even if they are declared after execution
+Variables' (```var```) and Functions' **declarations (different from initilization or definition)** are ‘lifted’ to the top of a function or a global scope even if they are declared after execution
 
 *Note: ```let/const/class``` declarations behave differently.*
+
+JavaScript engine does its job in two phases: the *memory creation phase* and the *execution phase*, and that our code won’t be executed until the second phase.
+
+```
+console.log(x)
+var x
+
+// undefined
+```
+```x``` is defined and available before its declaration — yes, this is a legitimate example of hoisting.
+
+It’s important to note that, in JavaScript, ```undefined``` is an actual value. So this is basically JavaScript engine interpreting ```var x = undefined```, just like ```var x = 5```
+
+But who sets the value of ```x``` to ```undefined```?
+
+This is a job of the JavaScript engine. During the ```memory creation phase```
+
+```
+console.log(x)
+var x = 10
+
+// undefined
+```
+
+You might have guessed that it would print out 10... but **initialisations are not hoisted**.
+
+
+
 
 - Global execution context and Function execution context
 - Lexical environment (*something that keeps track of variables and functions within a block of code*)
