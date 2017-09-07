@@ -111,7 +111,9 @@ alert(res); //=>false
 
 ## [Hoisting](https://codeburst.io/hoisting-in-javascript-515c987336d3)
 
-*how Variables and Function **declarations (different from initilization or definition)** are ‘lifted’ to the top of a function or a global scope even if they are declared after execution*
+Variables' and Functions' **declarations (different from initilization or definition)** are ‘lifted’ to the top of a function or a global scope even if they are declared after execution
+
+*Note: ```let/const/class``` declarations behave differently.*
 
 - Global execution context and Function execution context
 - Lexical environment (*something that keeps track of variables and functions within a block of code*)
