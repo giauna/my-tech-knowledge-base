@@ -25,6 +25,28 @@ With ES6 JavaScript introduced two other variable declaration keywords ```let```
 
 Javascript is a functional language meaning that functions are the primary modular units of execution.
 
+#### Definition
+
+**Function declaration**
+
+```
+function sayHello() {
+  console.log('Hello!')
+}
+```
+
+**Function expression**
+
+```
+var sayHello = function () {
+  console.log('Hello!')
+}
+```
+
+
+
+#### Parameters and Arguments
+
 - *Parameters* are variables listed as a part of the function definition.
 - *Arguments* are values passed to the function when it is invoked.
 
