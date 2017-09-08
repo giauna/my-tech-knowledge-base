@@ -1,5 +1,11 @@
 # Learning Javascript
 
+https://codeburst.io/we-boosted-our-javascript-projects-maintainability-by-following-these-guidelines-62536e6e0d04
+
+https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e
+
+https://codeburst.io/generators-in-javascript-1a7f9f884439
+
 ## [10 javascript concept you need to know](https://codeburst.io/10-javascript-concepts-you-need-to-know-for-interviews-136df65ecce)
 
 ## Basic concepts
