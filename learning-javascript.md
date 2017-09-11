@@ -31,15 +31,19 @@ With ES6 JavaScript introduced two other variable declaration keywords ```let```
 
 Javascript is a functional language meaning that functions are the primary modular units of execution.
 
+Functions are first-class objects. They are treated like any other JavaScript object.
+
 #### Definition
 
-**Function declaration**
+**Function declaration (or function statement)**
 
 ```
 function sayHello() {
   console.log('Hello!')
 }
 ```
+
+When you are declaring functions like this, the content of the function get’s compiled and an object with the same name as the function’s name is created.
 
 **Function expression**
 
@@ -48,7 +52,15 @@ var sayHello = function () {
   console.log('Hello!')
 }
 ```
+If there is no name given then that is an **anonymous function**. This anonymous function is getting assigned to a variable and this variable is used to invoke the function.
 
+**Self Invoked Function**
+
+```
+(function greet() {
+  console.log("Hello all from inside.");
+})(); //=> Self invoked!
+```
 
 
 #### Parameters and Arguments
@@ -130,7 +142,25 @@ alert(res); //=>false
 - Passing Parameters through Functions
 
 ## [Scope and Context](https://scotch.io/tutorials/understanding-scope-in-javascript#toc-scope-in-javascript)
-- Scope
+
+### Scope
+
+The scope refers to the current context of code. A variable's scope is the context in which the variable exists.
+
+**Global scope**
+
+Any variable that you declare by default is been defined in global scope. A global variable is visible in all other scopes and can be modified by any scope.
+
+If the sub-programs have one or more global variables that share the same name(s), then they will get involved with each other and likely
+
+
+**Local scope**
+
+Local Scope
+JavaScript doesn’t have block-level scope aka the variables scoped to surrounding curly brackets instead, the language have a function-level scope. The variables declared in a function are simply local variables and is only accessible within that function or by functions inside that function.
+
+
+
 - Context
 - .this
 - Closures
