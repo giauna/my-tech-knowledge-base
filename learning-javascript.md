@@ -159,7 +159,22 @@ If the sub-programs have one or more global variables that share the same name(s
 Local Scope
 JavaScript doesn’t have block-level scope aka the variables scoped to surrounding curly brackets instead, the language have a function-level scope. The variables declared in a function are simply local variables and is only accessible within that function or by functions inside that function.
 
+**Block scopes**
 
+ES6 introduces the ```let``` and ```const``` keywords to introduce traditional block scope. 
+
+```
+var structure = ‘HTML5 is the best!’;
+let interactivity = ‘ES6 Rules’;
+if (true) {
+ var structure = ‘Long live Flash’; //=> scope is global
+ let interactivity = ‘ES5 Sucks’; //=> scope is (local) block-level
+ console.log(structure); //=> Print’s “Long live Flash”
+ console.log(interactivity); //=> Print’s “ES5 Sucks”
+}
+console.log(structure); //=> Print’s “Long live Flash”
+console.log(interactivity); //=> Print’s “ES6 Rules”
+```
 
 - Context
 - .this
