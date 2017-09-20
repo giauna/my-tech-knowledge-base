@@ -18,9 +18,23 @@ With ES6 JavaScript introduced two other variable declaration keywords ```let```
 
 ```const``` is just like any other variable with some exceptions:
 - Need to initialize the value when declared
-- A new value can’t be assigned afterward (Not very variable, is it?) 
+- A new value can’t be assigned afterward
 
-```var``` ignores the blocks and is defined to the closest function or global scope. ```let``` and ```const``` on the other hand are block scoped variables.
+```var``` ignores the blocks and is defined to the closest function or global scope (```var``` is function-scoped). 
+
+```let``` and ```const``` on the other hand are **block scoped variables** (block = code between the opening and closing curly braces).
+
+```
+let count = 5;
+// 20 lines of code
+
+for(let count = 0; count < 15; count++) {
+  // do stuff
+}
+
+// 10 lines of code
+console.log(count); // 5 -- as expected
+```
 
 ![](https://cdn-images-1.medium.com/max/800/1*0YTEqYUeagQ34e31n4D6Fw.png)
 ![](https://cdn-images-1.medium.com/max/800/1*C3JNKH2fVZLllE9MSiU1zg.png)
