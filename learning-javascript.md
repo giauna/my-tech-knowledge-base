@@ -1,5 +1,7 @@
 # Learning Javascript
 
+https://github.com/mbeaudru/modern-js-cheatsheet
+
 https://codeburst.io/we-boosted-our-javascript-projects-maintainability-by-following-these-guidelines-62536e6e0d04
 
 https://codeburst.io/master-javascript-prototypes-inheritance-d0a9a5a75c4e
