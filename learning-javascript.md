@@ -1,6 +1,7 @@
 # Learning Javascript
 
 https://github.com/mbeaudru/modern-js-cheatsheet
+http://es6-features.org
 
 https://codeburst.io/we-boosted-our-javascript-projects-maintainability-by-following-these-guidelines-62536e6e0d04
 
