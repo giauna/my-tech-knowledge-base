@@ -268,6 +268,7 @@ We need to to know the difference between ```function declaration``` and ```func
 [Hoisting2](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
 
 ## [.this](https://www.educative.io/collection/page/5679346740101120/5707702298738688/5676830073815040)
+## [this](https://codeburst.io/javascript-this-and-its-binding-582945b06612)
 
 5 rules to learn how JS engine is using to do it
 
