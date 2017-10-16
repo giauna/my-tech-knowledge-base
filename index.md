@@ -1,6 +1,8 @@
 ## [Learning Javascript](learning-javascript)
 
-## [card design layout] https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/
+## [card design layout] (https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/)
+
+## [screen skeleton] (https://codepen.io/oslego/pen/XdvWmd)
 
 ## Welcome to GitHub Pages
 
