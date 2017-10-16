@@ -7,6 +7,7 @@
 ## [background image gradient] (https://github.com/ben-eb/postcss-resemble-image)
 
 ## [Fake it!] (https://kyusuf.com/post/fake-it-til-you-make-it-css)
+## [Aspect ratio] (https://css-tricks.com/snippets/sass/maintain-aspect-ratio-mixin/)
 
 ## Welcome to GitHub Pages
 
