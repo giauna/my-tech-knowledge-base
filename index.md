@@ -4,7 +4,9 @@
 
 ## [screen skeleton] (https://codepen.io/oslego/pen/XdvWmd)
 
-## [backgrounf image gradient] (https://github.com/ben-eb/postcss-resemble-image)
+## [background image gradient] (https://github.com/ben-eb/postcss-resemble-image)
+
+## [Fake it!] (https://kyusuf.com/post/fake-it-til-you-make-it-css)
 
 ## Welcome to GitHub Pages
 
