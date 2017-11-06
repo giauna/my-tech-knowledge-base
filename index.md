@@ -1,5 +1,7 @@
 ## [Learning Javascript](learning-javascript)
 
+## [Various cheatsheets](https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a)
+
 ## [card design layout] (https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/)
 
 ## [screen skeleton] (https://codepen.io/oslego/pen/XdvWmd)
