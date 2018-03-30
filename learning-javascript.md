@@ -1,4 +1,5 @@
 # Learning Javascript
+https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
 
 https://github.com/mbeaudru/modern-js-cheatsheet
 http://es6-features.org
